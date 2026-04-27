@@ -1,0 +1,23 @@
+# Python virtual environments
+backend/backend_venv/
+backend/venv/
+
+# Python cache files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Node modules and build outputs
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# IDE / editor files
+.vscode/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
