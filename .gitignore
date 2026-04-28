@@ -21,3 +21,6 @@ frontend/.vite/
 # OS files
 .DS_Store
 Thumbs.db
+
+#.env files
+.env
