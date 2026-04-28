@@ -1,26 +1,47 @@
-# Python virtual environments
-backend/backend_venv/
-backend/venv/
+# =========================
+# 🔐 Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
 
-# Python cache files
+# =========================
+# 🐍 Python (Backend)
+# =========================
+backend/venv/
+backend/backend_venv/
+venv/
+
 __pycache__/
-**/__pycache__/
 *.py[cod]
 *.pyo
+*.pyd
+*.sqlite3
 
-# Node modules and build outputs
+# =========================
+# ⚛️ Node / React (Frontend)
+# =========================
 frontend/node_modules/
+node_modules/
+
 frontend/dist/
 frontend/build/
 frontend/.vite/
 
-# IDE / editor files
-.vscode/
+# =========================
+# 📦 Logs & Temp Files
+# =========================
 *.log
+*.tmp
 
-# OS files
+# =========================
+# 💻 IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# 🖥️ OS Files
+# =========================
 .DS_Store
 Thumbs.db
-
-#.env files
-.env
